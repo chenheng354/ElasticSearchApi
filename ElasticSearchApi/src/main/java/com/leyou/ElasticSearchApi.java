@@ -50,13 +50,14 @@ public class ElasticSearchApi  {
     @After
     public void end(){
         client.close();
-    }
+    } 
 	@After
-    public void BB(){
+    public void AA(){
         client.close();
     }@After
     public void AA(){
         client.close();
     }
+	
 	
 }
