@@ -51,4 +51,8 @@ public class ElasticSearchApi  {
     public void end(){
         client.close();
     }
+	@test
+    public void anyongbo(){
+        client.close();
+    }
 }
