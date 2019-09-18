@@ -50,10 +50,6 @@ public class ElasticSearchApi  {
     @After
     public void end(){
         client.close();
-    } 
-	@test
-    public void yangxin(){
-        client.close();
     }
 	@test
     public void anyongbo(){
