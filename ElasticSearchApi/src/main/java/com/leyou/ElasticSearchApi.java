@@ -54,9 +54,6 @@ public class ElasticSearchApi  {
 	@After
     public void AA(){
         client.close();
-    }@After
-    public void AA(){
-        client.close();
     }
 	
 	
